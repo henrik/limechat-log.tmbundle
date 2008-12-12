@@ -5,7 +5,7 @@
 
 ## Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](http://github.com/henrik/limechat-log.tmbundle/tree/master/screenshot.png?raw=true)
 
 
 ## Installation
