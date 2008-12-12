@@ -80,7 +80,7 @@
 			<key>match</key>
 			<string>(https?|ftp|mailto):\S+?(?=[)&gt;,.':;"]*(\s|$)|$)</string>
 			<key>name</key>
-			<string>markup.underline.link.tasks</string>
+			<string>markup.underline.link.limechat-log</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
