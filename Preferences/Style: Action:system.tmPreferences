@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Style: Action/system</string>
+	<key>scope</key>
+	<string>meta.row.action_or_system.limechat-log meta.message</string>
+	<key>settings</key>
+	<dict>
+		<key>fontStyle</key>
+		<string>italic</string>
+		<key>foreground</key>
+		<string>#888888</string>
+	</dict>
+	<key>uuid</key>
+	<string>D64310E9-2A91-405C-B5DB-48687DBC5DF8</string>
+</dict>
+</plist>

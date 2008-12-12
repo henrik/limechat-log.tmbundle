@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>^\d\d:\d\d </string>
+	<key>name</key>
+	<string>LimeChat Log</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.time.limechat-log</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>meta.name-part.limechat-log</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>meta.name.limechat-log</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>meta.message.limechat-log</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(\d\d:\d\d) (((?!(?:Topic|Mode):)[\w-]+):) (.*)</string>
+			<key>name</key>
+			<string>meta.row.message.limechat-log</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.time.limechat-log</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>meta.message.limechat-log</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(\d\d:\d\d) (.*)</string>
+			<key>name</key>
+			<string>meta.row.action_or_system.limechat-log</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.plain.limechat-log</string>
+	<key>uuid</key>
+	<string>5D1C6B9A-3723-4149-BF26-F2F64E23F5EF</string>
+</dict>
+</plist>

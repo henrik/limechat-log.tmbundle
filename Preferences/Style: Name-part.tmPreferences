@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Style: Name-part</string>
+	<key>scope</key>
+	<string>meta.name-part.limechat-log</string>
+	<key>settings</key>
+	<dict>
+		<key>foreground</key>
+		<string>#FBDE2D</string>
+	</dict>
+	<key>uuid</key>
+	<string>A05E8DB3-EB0A-49DE-B755-723ADB180DA9</string>
+</dict>
+</plist>

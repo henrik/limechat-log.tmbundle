@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>uraevx@alu.fr</string>
+	<key>contactName</key>
+	<string>Henrik Nyh</string>
+	<key>name</key>
+	<string>LimeChat Log</string>
+	<key>ordering</key>
+	<array>
+		<string>5D1C6B9A-3723-4149-BF26-F2F64E23F5EF</string>
+		<string>A659CBA7-0937-4F63-9D85-0DDA7DD16592</string>
+		<string>A05E8DB3-EB0A-49DE-B755-723ADB180DA9</string>
+	</array>
+	<key>uuid</key>
+	<string>F0018D18-ED79-47CD-A5F4-972FC624669A</string>
+</dict>
+</plist>
