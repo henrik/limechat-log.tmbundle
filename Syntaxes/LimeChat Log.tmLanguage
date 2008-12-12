@@ -13,7 +13,9 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>captures</key>
+			<key>begin</key>
+			<string>^(\d\d:\d\d) (((?!(?:Topic|Mode):)[\w-]+):) </string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
@@ -30,37 +32,57 @@
 					<key>name</key>
 					<string>meta.name.limechat-log</string>
 				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>meta.message.limechat-log</string>
-				</dict>
 			</dict>
-			<key>match</key>
-			<string>^(\d\d:\d\d) (((?!(?:Topic|Mode):)[\w-]+):) (.*)</string>
+			<key>contentName</key>
+			<string>meta.message.limechat-log</string>
+			<key>end</key>
+			<string>$</string>
 			<key>name</key>
 			<string>meta.row.message.limechat-log</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#link</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
-			<key>captures</key>
+			<key>begin</key>
+			<string>^(\d\d:\d\d) </string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>meta.time.limechat-log</string>
 				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>meta.message.limechat-log</string>
-				</dict>
 			</dict>
-			<key>match</key>
-			<string>^(\d\d:\d\d) (.*)</string>
+			<key>contentName</key>
+			<string>meta.message.limechat-log</string>
+			<key>end</key>
+			<string>$</string>
 			<key>name</key>
 			<string>meta.row.action_or_system.limechat-log</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#link</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
+	<key>repository</key>
+	<dict>
+		<key>link</key>
+		<dict>
+			<key>match</key>
+			<string>(https?|ftp|mailto):\S+?(?=[)&gt;,.':;"]*(\s|$)|$)</string>
+			<key>name</key>
+			<string>markup.underline.link.tasks</string>
+		</dict>
+	</dict>
 	<key>scopeName</key>
 	<string>text.plain.limechat-log</string>
 	<key>uuid</key>
